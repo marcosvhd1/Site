@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Site de Jogos</title>
   <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
-  <link rel="stylesheet" href="css/PrincipalEstilos.css" type="text/css">
+  <!-- <link rel="stylesheet" href="css/PrincipalEstilos.css" type="text/css"> -->
+  <link rel="stylesheet" href="css/Principal.css" type="text/css">
 </head>
 <body>
   <!-- BARRA LATERAL -->
@@ -68,40 +69,45 @@
   <!-- FIM BARRA LATERAL -->
   <!-- ********************************************************************************************************************************************************************* -->
   <!-- PAGINA DE JOGOS -->
-    <div class="tela_jogos" id="Jogos">
-        <div class="cabeçalho">
-            <span class="texto">Nossos Jogos</span>
-        </div>
-        <ul>
-          <li>
-            <!-- BOTAO DO JOGO DA VELHA -->
-            <a target="_blank" href="../JogoVelha/Velha.html" class="velha">
-              <img src="./image/velha.png" alt="">
-              <i class='bx bx-hash'></i>
-              <span class="text">Jogo Da Velha</span>
-            </a>
-            <span class="legenda_velha">
-              Um clássico Jogo da Velha agora disponível <br> online para jogar com amigos!
-            </span>
-            <!-- FIM DO BOTAO DO JOGO DA VELHA -->
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <!-- BOTAO DO JOGO DA COBRINHA -->
-            <a target="_blank" href="../JogoCobrinha/Cobrinha.html" class="cobrinha">
-              <img src="./image/cobrinha.png" alt="">
-              <i class='bx bx-won'></i>
-              <span class="text">Jogo Da Cobrinha</span>
-            </a>
-            <span class="legenda_cobrinha">
-              Um clássico Jogo da Cobrinha agora <br>disponível online!
-            </span>
-            <!-- FIM DO BOTAO DO JOGO COBRINHA -->
-          </li>
-        </ul>
+  <div class="tela_jogos" id="Jogos">
+    <div class="cabeçalho">
+      <span class="texto">Nossos Jogos</span>
     </div>
-    <!-- FIM PAGINA JOGOS -->
+    <!-- IMAGEM JOGO DA VELHA -->
+    <div class="img_velha">
+      <img src="./image/velha.png" alt="">
+    </div>
+    <!-- BOTAO DO JOGO DA VELHA -->
+    <div class="botao_velha">
+      <a target="_blank" href="../JogoVelha/Velha.html" class="velha">
+        <img src="./image/velha.png" alt="">
+        <i class='bx bx-hash'></i>
+        <span class="text">Jogo Da Velha</span>
+      </a>
+      <span class="legenda">
+        Um clássico Jogo da Velha agora disponível <br> online para jogar com amigos!
+      </span>
+    </div>
+    <!-- FIM DO BOTAO DO JOGO DA VELHA  -->
+    <!-- *********************************************************************************************************** -->
+    <!-- IMAGEM JOGO DA cobrinha -->
+    <div class="img_cobrinha">
+      <img src="./image/cobrinha.png" alt="">
+    </div>
+    <!-- BOTAO DO JOGO DA cobrinha -->
+    <div class="botao_cobrinha">
+      <a target="_blank" href="../JogoVelha/Velha.html" class="cobrinha">
+        <img src="./image/cobrinha.png" alt="">
+        <i class='bx bx-hash'></i>
+        <span class="text">Jogo Da Cobrinha</span>
+      </a>
+      <span class="legenda">
+        Um clássico Jogo da cobrinha agora  <br>disponível online!
+      </span>
+    </div>
+    <!-- FIM DO BOTAO DO JOGO DA cobrinha -->
+  </div>
+  <!-- FIM PAGINA JOGOS -->
   <script src="scripts/PrincipalScripts.js"></script>
 </body>
 </html>
