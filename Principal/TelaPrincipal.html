@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site de Jogos</title>
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="css/PrincipalEstilos.css" type="text/css">
+</head>
+<body>
+  <!-- BARRA LATERAL -->
+  <div class="barraLateral">
+    <div class="contorno_logo">
+      <div class="logo">
+        <i class='bx bxl-digitalocean'></i>
+        <div class="nome_logo">Alpha Version</div>
+      </div>
+      <i class='bx bx-menu' id="btn"></i>
+    </div>
+    <ul class="nav_list">
+      <li>
+        <i class='bx bx-search' ></i>
+          <input type="text" placeholder="Pesquisar...">
+          <span class="legenda">Pesquisar</span>
+      </li>
+    </ul>
+    <ul class="nav_list">
+      <li>
+        <a href="#">
+          <i class='bx bx-grid-alt' ></i>
+          <span class="texto_botoes">Dashboard</span>
+        </a>
+        <span class="legenda">Dashboard</span>
+      </li>
+    </ul>
+    <ul class="nav_list">
+      <li>
+        <a href="#">
+          <i class='bx bx-user'></i>
+          <span class="texto_botoes">Usuário</span>
+        </a>
+        <span class="legenda">Usuário</span>
+      </li>
+    </ul>
+    <ul class="nav_list">
+      <li>
+        <a href="#" class="NomeJogo">
+          <i class='bx bx-game'></i>
+          <span class="texto_botoes">Jogos</span>
+          <span class="legenda">Jogos</span>
+        </a>
+      </li>
+    </ul>
+    <div class="contorno_perfil">
+      <div class="perfil">
+        <div class="detalhes_perfil">
+          <img src="./image/background.jpg" alt="">
+          <div class="nome_trabalho">
+            <div class="nome">Marcos Hellmann</div>
+            <div class="trabalho">Web Designer</div>
+          </div>
+        </div>
+        <i class='bx bx-log-out' id="log_out"></i>
+      </div>
+    </div>
+  </div>
+  <!-- FIM BARRA LATERAL -->
+  <!-- ********************************************************************************************************************************************************************* -->
+  <!-- PAGINA DE JOGOS -->
+    <div class="tela_jogos" id="Jogos">
+        <div class="cabeçalho">
+            <span class="texto">Nossos Jogos</span>
+        </div>
+        <ul>
+            <li>
+                <!-- BOTAO DO JOGO DA VELHA -->
+                <a target="_blank" href="../JogoVelha/Velha.html">
+                    <i class='bx bx-hash'></i>
+                    <span class="text">Jogo Da Velha</span>
+                </a>
+                <span class="legenda">
+                    Um clássico Jogo da Velha agora disponível <br> online para jogar com amigos!
+                </span>
+                <!-- FIM DO BOTAO DO JOGO DA VELHA -->
+            </li>
+        </ul>
+    </div>
+    <!-- FIM PAGINA JOGOS -->
+  <script src="scripts/PrincipalScripts.js"></script>
+</body>
+</html>
