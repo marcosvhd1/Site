@@ -302,9 +302,11 @@ transition: all 0.5s ease;
   list-style: none;
   line-height: 50px;
   border-radius: 12px;
+  flex-flow: column;
+  right: 5%;
 }
 
-.tela_jogos ul li .legenda{
+.tela_jogos ul li .legenda_velha{
   position: relative;
   left: 122px;
   top: 0;
@@ -323,11 +325,39 @@ transition: all 0.5s ease;
   left: 45%;
 }
 
-.tela_jogos ul li:hover .legenda{
+.tela_jogos ul li:hover .legenda_velha{
   transition: all 0.5s ease;
   opacity: 1;
   top: 90%;
-  left: 55%;
+  left: 15%;
+  font-weight: 500;
+  pointer-events: none;
+}
+
+.tela_jogos ul li .legenda_cobrinha{
+  position: relative;
+  left: 122px;
+  top: 0;
+  transform: translate(-40%, -50%);
+  border-radius: 6px;
+  height: min-content;
+  width: 400px;
+  background: #fff;
+  line-height: 35px;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  transition: 0s;
+  opacity: 0;
+  pointer-events: none;
+  display: block;
+  left: 45%;
+}
+
+.tela_jogos ul li:hover .legenda_cobrinha{
+  transition: all 0.5s ease;
+  opacity: 1;
+  top: -50%;
+  left: 115%;
   font-weight: 500;
   pointer-events: none;
 }
@@ -342,15 +372,44 @@ transition: all 0.5s ease;
   border-radius: 8px;
   white-space: nowrap;
   height: min-content;
-  padding: 5px;
+  padding-right: 12px;
   font-weight: 500;
-  width: 190px;
-  left: 40%;
+  width: min-content;
+}
+
+.tela_jogos .velha img{
+  position: relative;
+  left: 5%;
+  padding: 5px;
+}
+
+.tela_jogos .cobrinha img{
+  position: relative;
+  left: 5%;
+  padding: 5px;
+}
+
+.tela_jogos ul li .velha{
+  position: relative;
+  left: 0%;
+}
+
+.tela_jogos ul li .cobrinha{
+  position: relative;
+  top: -140%;
+  left: 100%;
 }
 
 .tela_jogos ul li a:hover{
   color: #fff;
   background: #11101d;
+}
+
+.tela_jogos ul li img{
+  height: 45px;
+  width: 45px;
+  object-fit: cover;
+  border-radius: 12px;
 }
 
 .tela_jogos ul li i{
