@@ -262,6 +262,11 @@ transition: all 0.5s ease;
   left: 240px;
 }
 
+.barraLateral.ativa ~ .tela_principal{
+  width: calc(100% - 240px);
+  left: 240px;
+}
+
 /* ************************************************************* FIM BARRA LATERAL ************************************************************* */
 
 /* ************************************************************* TELA JOGOS ************************************************************* */
@@ -440,4 +445,38 @@ transition: all 0.5s ease;
   opacity: 0;
   pointer-events: none;
   left: 35%;
+}
+
+/* ************************************************** FIM PÁGINA DE JOGOS ******************************************* */
+.tela_principal{
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: calc(100% - 78px);
+  left: 78px;
+  transition: all 0.5s ease;
+}
+
+.tela_principal .linha{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.tela_principal .coluna{
+  width: 50%;
+}
+
+.tela_principal .cabeçalho{
+  position: relative;
+  height: min-content;
+  width: 100%;
+  transition: all 0.5s ease;
+  background-color: #11101d;
+  padding: 5px;
+  text-align: center;
+}
+
+.tela_principal .cabeçalho .texto{
+  font-size: 25px;
+  color: #fff;
 }
