@@ -327,7 +327,7 @@ transition: all 0.5s ease;
 .tela_jogos .descricao_velha{
   position: relative;
   top: 15%;
-  left: 23%;
+  left: 25%;
   width: 360px;
   height: min-content;
   background-color: #fff;
@@ -340,7 +340,7 @@ transition: all 0.5s ease;
 .tela_jogos .descricao_cobrinha{
   position: relative;
   top: 15%;
-  left: 0%;
+  left: 2%;
   width: 400px;
   height: min-content;
   background-color: #fff;
@@ -479,4 +479,83 @@ transition: all 0.5s ease;
 .tela_principal .cabeçalho .texto{
   font-size: 25px;
   color: #fff;
+}
+
+.tela_principal .title_velha{
+  position: relative;
+  height: min-content;
+  width: 250px;
+  transition: all 0.5s ease;
+  background-color: #11101d;
+  padding: 5px;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 8px;
+  font-weight: 500;
+  top: 5%;
+  left: 32%;
+}
+
+.tela_principal .title_cobrinha{
+  position: relative;
+  height: min-content;
+  width: 250px;
+  transition: all 0.5s ease;
+  background-color: #11101d;
+  padding: 5px;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 8px;
+  font-weight: 500;
+  top: 5%;
+  left: 22%;
+}
+
+.tela_principal img{
+  position: relative;
+  transition: all 0.5s ease;
+  border-radius: 8px;
+  white-space: nowrap;
+  height: 200px;
+  width: 200px;
+}
+
+.tela_principal .img_velha{
+  position: relative;
+  top: 8%;
+  left: 35%;
+}
+
+.tela_principal .img_cobrinha{
+  position: relative;
+  top: 8%;
+  left: 25%;
+}
+
+.tela_principal .historia_velha{
+  position: relative;
+  top: 10%;
+  left: 25%;
+  width: 360px;
+  height: min-content;
+  background-color: #fff;
+  color: #11101d;
+  padding: 7px;
+  margin: 7px;
+  font-weight: 500;
+}
+
+.tela_principal .historia_cobrinha{
+  position: relative;
+  top: 10%;
+  left: 16%;
+  width: 360px;
+  height: min-content;
+  background-color: #fff;
+  color: #11101d;
+  padding: 7px;
+  margin: 7px;
+  font-weight: 500;
 }
